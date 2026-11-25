@@ -1,8 +1,10 @@
-# LOTO Life landing page
+# LOTO Life storefront preview
 
-Static coming-soon page for https://lotolife.us/. No build, packages, trackers, forms, or checkout.
+Static storefront preview for https://lotolife.us/. No build, packages, third-party trackers, accounts, email collection, or checkout.
 
-Published with GitHub Pages from the root of the `main` branch. Edit `index.html` and push to redeploy. The `CNAME` file preserves the custom domain.
+Iteration 2 includes original LOTO Life graphics, a generated lake hero, six labeled apparel/accessory concepts, category filtering, search and empty states, color/size previews in an accessible native dialog, and browser-local saved favorites. AO Coolers and Softlines have separate dealer-category introductions. Products, prices, garment specifications, fulfillment, and store policies still need confirmation before commerce launches.
+
+Published with GitHub Pages from the root of the `main` branch. Edit `index.html`, `styles.css`, or `app.js` and push to redeploy. The `CNAME` file preserves the custom domain. To preview from the parent workspace, run `node preview.mjs` and open http://127.0.0.1:4173/.
 
 ## Domain
 
@@ -12,4 +14,8 @@ Target DNS: Squarespace default nameservers, four GitHub Pages apex A records (1
 
 HTTPS must be enabled after GitHub finishes issuing the domain certificate. Current deployment and DNS status should be checked in GitHub Pages and Squarespace before further changes.
 
-The lake illustration and favicon are original inline/vector artwork. All visual assets are self-contained; no remote fonts or imagery are required.
+The product/category illustrations, story illustration, and favicon are original SVG artwork. The hero is original AI-generated illustrative brand imagery, not a photograph of a verified location. See ASSETS.md for provenance and the final prompt. All displayed assets are self-hosted; no remote fonts or imagery are required.
+
+## Verification
+
+Run `node --check app.js`. Desktop and narrow-width Chrome browser checks cover filtering, search reset, empty favorites, favorite persistence after reload, product color/size controls, dialog close with Escape and focus return, mobile menu closing on navigation, loaded imagery, and no document/dialog horizontal overflow at 390 and 320 pixel widths. These checks do not establish physical iPhone/Safari compatibility or checkout behavior (checkout is not implemented).
