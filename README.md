@@ -1,5 +1,7 @@
 # LOTO Life storefront preview
 
+Party package previews added November 27, 2026: bachelor and bachelorette bundles with personalized shirts, hats, reusable cups and can sleeves, plus optional extras and a charter-customer planning checklist. Native details explain personalization; no order form or booking integration is active. See `research/party-packages.md` for scope and market observations.
+
 Static storefront preview for https://lotolife.us/. No build, packages, third-party trackers, accounts, email collection, or checkout.
 
 Iteration 2 includes original LOTO Life graphics, a generated lake hero, six labeled apparel/accessory concepts, category filtering, search and empty states, color/size previews in an accessible native dialog, and browser-local saved favorites. AO Coolers and Softlines have separate dealer-category introductions. Products, prices, garment specifications, fulfillment, and store policies still need confirmation before commerce launches.

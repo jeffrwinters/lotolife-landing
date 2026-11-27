@@ -11,4 +11,6 @@ Final prompt:
 All other illustrations are code-native SVG in index.html and app.js. Product illustrations are explicitly labeled concept mockups, with final availability and specifications unconfirmed.
 # Dealer catalog illustrations
 
+Party package bundle illustrations added November 27, 2026 are original inline SVG artwork in `index.html`, depicting generic shirts, hats and cups with illustrative wording. They are labeled as illustrative bundles and do not show finalized garments, print methods or actual supplier products.
+
 Added November 25, 2026: original code-native SVG category illustrations in `gear-catalog.js` for coolers, coiled lines, hooks, and a mesh bag. These are visibly labeled illustrations, not manufacturer product photographs or exact product renderings. They do not establish colors, construction, hardware, dimensions or current inventory. Replace with authorized supplier photographs before opening orders.
